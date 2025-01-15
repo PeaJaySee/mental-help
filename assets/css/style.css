@@ -47,3 +47,13 @@
 }
 
 
+/*FOOTER*/
+
+#copyright {
+    background-color: #545050;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+}
