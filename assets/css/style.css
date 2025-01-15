@@ -24,6 +24,7 @@ p {font-family: "roboto", sans-serif;}
     position: fixed;
     width: 100%;
     z-index: 1000;
+    color:white
  }
 
 .navbar .nav-link,
@@ -41,6 +42,8 @@ p {font-family: "roboto", sans-serif;}
 .navbar-toggler.custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+
+
 
 /*HERO*/
 
@@ -61,6 +64,7 @@ p {font-family: "roboto", sans-serif;}
 #hero .lead {font-size: 1rem;
     font-weight: 500;}
 
+
 /*SIGNS*/
 
 #signs {
@@ -71,6 +75,8 @@ p {font-family: "roboto", sans-serif;}
 
 #signs ul {
     text-align: left;}
+
+#signs h1 {margin-bottom: 2rem;}
 
 
 /*CONDITIONS*/
@@ -87,6 +93,8 @@ p {font-family: "roboto", sans-serif;}
 #conditions .card {margin-bottom: 1rem;
                    height:400px;}
 
+#conditions h1 {margin-bottom: 2rem;}
+
 
 
 /*RESOURCES*/
@@ -98,6 +106,9 @@ p {font-family: "roboto", sans-serif;}
     text-align: left;
     padding: 2rem;
 }
+
+#resources h1, #resources p {text-align: center;
+    margin-bottom: 2rem;}
 
 
 /*FOOTER*/
