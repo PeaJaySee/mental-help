@@ -10,3 +10,7 @@ This site is intended as an initial point of call for people looking for informa
 
 The site was created primarily using HTML and CSS. Bootstrap and Copilot AI have been used to assist and to generate some of the content.
 
+## Sources
+
+The Mental Health UK website was used to help with the descriptions of common mental health conditions.
+
