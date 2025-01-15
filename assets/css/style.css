@@ -67,8 +67,7 @@ p {font-family: "roboto", sans-serif;}
 #hero p {font-size: 1.0rem;
     font-weight: 500;}
 
-#hero h1, #hero p {background-color: rgba(0, 0, 0, 0.5);
-                    margin:0}
+#hero h1, #hero p {margin:0;}
 
 
 /*SIGNS*/
