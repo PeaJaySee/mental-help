@@ -14,8 +14,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg">
+    
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#hero">Mental Help</a>
                 <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
@@ -35,23 +35,24 @@
                             <a class="nav-link" href="#conditions">Conditions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resources</a>
+                            <a class="nav-link" href="#resources">Resources</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
+   
 
     <main>
-
+      <header>
         <section id="hero">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
 
-                        <h1 class="mt-1">Welcome to Mental Help.</h1>
-                        <p>According to Mental Health UK, 1 in every 4 people in the UK has experienced a mental health
+                        <h1 class="display-2">Welcome to Mental Help.</h1>
+                        <br>
+                        <p class="lead">According to Mental Health UK, 1 in every 4 people in the UK has experienced a mental health
                             condition.</p>
                         <p>This site does not offer diagnosis or treatment, but we do aim to provide helpful information
                             for those living with a mental health problem and those concerned about another person's
@@ -61,9 +62,10 @@
                 </div>
             </div>
         </section>
+        </header>
 
         <section id="signs">
-            <div class="container">
+            <div class="container mt-5">
                 <div class="row">
                     <div>
                         <h1>Signs of poor mental Health</h1>
@@ -85,15 +87,16 @@
 
         <section id="conditions">
             <div class="container">
-            <div class="row">
+
+            <div class="row justify-content-center">
                 <div class="col-12">
                 <h1>Common Mental Health Conditions</h1>
                 </div>
             </div>
             <div class="row">
 
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-12 col-sm-6  col-md-6 col-lg-6">
+                    <div class="card" style="width: 15rem;">
                         <img src="assets/images/depression.webp" class="card-img-top" alt="A man sitting under a cloud">
                         <div class="card-body">
                             <h5 class="card-title">Depression</h5>
@@ -102,18 +105,19 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-12 col-sm-6  col-md-6 col-lg-6">
+                    <div class="card" style="width: 15rem;">
                         <img src="assets/images/anxious.webp" class="card-img-top" alt="A person biting their nails">
                         <div class="card-body">
                             <h5 class="card-title">Anxiety</h5>
-                            <p class="card-text">Feelings of fear or worry that can be difficult to control and impact on daily life.</p>
+                            <p class="card-text">Feelings of fear or worry that can be difficult to control and impact negatively on daily life.</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="card" style="width: 18rem;">
+                </div>
+                <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" style="width: 15rem;">
                         <img src="assets/images/ocd.webp" class="card-img-top" alt="A person holding their head in their hands">
                         <div class="card-body">
                             <h5 class="card-title">Obsessive Compulsive Disorder (OCD)</h5>
@@ -122,6 +126,16 @@
                     </div>
                 </div>
 
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" style="width: 15rem;">
+                        <img src="assets/images/bipolar.webp" class="card-img-top" alt="A person holding their head in their hands">
+                        <div class="card-body">
+                            <h5 class="card-title">Bipolar Disorder</h5>
+                            <p class="card-text">A condition characterised by extreme mood swings from high to low and vice versa.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </div>
             </div>
 
@@ -157,6 +171,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+<script>
+    document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let section = document.querySelector(e.target.getAttribute("href"));
+                if (section) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    window.scroll({
+                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        behavior: "smooth",
+                    });
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
+                }
+            });
+        });
+</script>
 
 </body>
 
