@@ -3,11 +3,17 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ef9355;
+    background-color: #e5a57a;
     color: #1d1c1c;
 }
+h1 {font-family: "oswald", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    }
 
-h1 {font-family: "oswald", sans-serif;}
+h2 {font-family: "oswald", sans-serif;
+    font-size: 2rem;
+    font-weight:800;}
 
 p {font-family: "roboto", sans-serif;}
 
@@ -56,12 +62,9 @@ p {font-family: "roboto", sans-serif;}
     align-items: center;
     text-align: left;
     color: white;
-    font-size: 1rem;
-    font-weight: 700;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#hero .lead {font-size: 1rem;
+#hero p {font-size: 1.0rem;
     font-weight: 500;}
 
 #hero h1, #hero p {background-color: rgba(0, 0, 0, 0.5);
