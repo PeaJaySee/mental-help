@@ -1,13 +1,16 @@
 /*GENERAL*/
 
 body {
-    font-family: "arial", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #ef9355;
     color:rgb(35, 32, 32)
 }
+
+h1 {font-family: "oswald", sans-serif;}
+
+p {font-family: "roboto", sans-serif;}
 
 /*NAVBAR*/
 
