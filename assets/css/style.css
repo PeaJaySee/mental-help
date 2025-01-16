@@ -6,16 +6,22 @@ body {
     background-color: #e5a57a;
     color: #1d1c1c;
 }
-h1 {font-family: "oswald", sans-serif;
+
+h1 {
+    font-family: "oswald", sans-serif;
     font-weight: bold;
     font-size: 3rem;
-    }
+}
 
-h2 {font-family: "oswald", sans-serif;
+h2 {
+    font-family: "oswald", sans-serif;
     font-size: 2rem;
-    font-weight:800;}
+    font-weight: 800;
+}
 
-p {font-family: "roboto", sans-serif;}
+p {
+    font-family: "roboto", sans-serif;
+}
 
 /*NAVBAR*/
 
@@ -30,8 +36,8 @@ p {font-family: "roboto", sans-serif;}
     position: fixed;
     width: 100%;
     z-index: 1000;
-    color:white
- }
+    color: white
+}
 
 .navbar .nav-link,
 .navbar .navbar-brand,
@@ -43,7 +49,9 @@ p {font-family: "roboto", sans-serif;}
     color: #d4d4d4;
 }
 
-.navbar-toggler.custom-toggler {border-color:white}
+.navbar-toggler.custom-toggler {
+    border-color: white
+}
 
 .navbar-toggler.custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -53,7 +61,8 @@ p {font-family: "roboto", sans-serif;}
 
 /*HERO*/
 
-#hero {height:80vh;
+#hero {
+    height: 80vh;
     background-image: url("../images/mh-hero-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -64,24 +73,32 @@ p {font-family: "roboto", sans-serif;}
     color: white;
 }
 
-#hero p {font-size: 1.0rem;
-    font-weight: 500;}
+#hero p {
+    font-size: 1.0rem;
+    font-weight: 500;
+}
 
-#hero h1, #hero p {margin:0;}
+#hero h1,
+#hero p {
+    margin: 0;
+}
 
 
 /*SIGNS*/
 
 #signs {
 
-    display:flex;
+    display: flex;
     text-align: center;
 }
 
 #signs ul {
-    text-align: left;}
+    text-align: left;
+}
 
-#signs h2 {margin-bottom: 2rem;}
+#signs h2 {
+    margin-bottom: 2rem;
+}
 
 
 /*CONDITIONS*/
@@ -95,14 +112,20 @@ p {font-family: "roboto", sans-serif;}
     padding: 2rem;
 }
 
-#conditions .card {margin-bottom: 1rem;
-                   height:30rem;}
+#conditions .card {
+    margin-bottom: 1rem;
+    height: 30rem;
+}
 
-#conditions h2 {margin-bottom: 2rem;}
+#conditions h2 {
+    margin-bottom: 2rem;
+}
 
-#conditions h3 {font-size: 1.2rem;
-                font-weight: 525;
-                text-decoration:underline;}
+#conditions h3 {
+    font-size: 1.2rem;
+    font-weight: 525;
+    text-decoration: underline;
+}
 
 
 /*RESOURCES*/
@@ -115,10 +138,23 @@ p {font-family: "roboto", sans-serif;}
     padding: 2rem;
 }
 
-#resources h2, #resources p {text-align: center;
-    margin-bottom: 2rem;}
+#resources h2,
+#resources p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
-#resources a {color:darkblue;}  
+#resources a {
+    color: darkblue;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#resources a:hover {
+    color: rgb(104, 49, 100);
+}
+
+
 
 /*FOOTER*/
 
@@ -134,27 +170,39 @@ p {font-family: "roboto", sans-serif;}
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width:576px)
-{#conditions .card {margin-bottom: 1rem;
-    margin-left:17px;
-    height:400px;}}
+@media screen and (max-width:576px) {
+    #conditions .card {
+        margin-bottom: 1rem;
+        margin-left: 17px;
+        height: 400px;
+    }
+}
 
-@media screen and (min-width:768px)
-{#conditions .card {margin-bottom: 1rem;
-    margin-left:50px;
-    height:400px;}}
+@media screen and (min-width:768px) {
+    #conditions .card {
+        margin-bottom: 1rem;
+        margin-left: 50px;
+        height: 400px;
+    }
+}
 
-@media screen and (min-width:992px)
-{#conditions .card {margin-bottom: 1rem;
-        margin-left:100px;
-        height:400px;}}
+@media screen and (min-width:992px) {
+    #conditions .card {
+        margin-bottom: 1rem;
+        margin-left: 100px;
+        height: 400px;
+    }
+}
 
-@media screen and (min-width:1200px)
+@media screen and (min-width:1200px) {
+    #conditions .card {
+        margin-bottom: 1rem;
+        margin-left: 150px;
+        height: 400px;
+    }
 
-{#conditions .card {margin-bottom: 1rem;
-    margin-left:150px;
-    height:400px;}
-
-#hero {background-position: bottom 50% left 10%;}
+    #hero {
+        background-position: bottom 50% left 10%;
+    }
 
 }
