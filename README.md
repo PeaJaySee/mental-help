@@ -17,11 +17,17 @@ A possible future feature is a section on self-help and ways to mitigate stress.
 ## Colour Palette
 
 #545050 - Light Grey - Header and Footer
+
 #e5a57a - Light Orange - Background
+
 rgb(104, 49, 100) - Violet - Link Hover
+
 Dark Blue - Links
+
 Black - Text
+
 White - Text
+
 
 ## Technologies Used / Acknowledgements
 
