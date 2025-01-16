@@ -1,6 +1,6 @@
 # mental-help
 
-Beginner friendly mental health information
+### Beginner friendly mental health information
 
 ## URL
 
