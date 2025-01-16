@@ -63,7 +63,7 @@ p {
 
 #hero {
     height: 80vh;
-    background-image: url("../images/mh-hero-bg.jpg");
+    background-image: url("../images/mh-hero-bg-rs.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -212,7 +212,7 @@ p {
     }
 
     #hero {
-        background-position: bottom 50% left 10%;
+        background-position: bottom 57% left 10%;
     }
 
 }
