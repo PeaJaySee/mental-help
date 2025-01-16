@@ -118,6 +118,7 @@ p {font-family: "roboto", sans-serif;}
 #resources h2, #resources p {text-align: center;
     margin-bottom: 2rem;}
 
+#resources a {color:darkblue;}  
 
 /*FOOTER*/
 
