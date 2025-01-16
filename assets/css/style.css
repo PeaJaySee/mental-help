@@ -118,6 +118,7 @@ p {
 #conditions .card {
     margin-bottom: 1rem;
     height: 30rem;
+    box-shadow: #0a0a0a 0px 5px 5px;
 }
 
 #conditions h2 {
