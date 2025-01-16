@@ -2,6 +2,10 @@
 
 Beginner friendly mental health information
 
+## URL
+
+The site can be accessed via the following link: https://peajaysee.github.io/mental-help/
+
 ## Introduction
 
 This site is intended as an initial point of call for people looking for information on mental health issues, including a description of common issues and tips on how to recognise them. There is a resources section to point them to further reading on the subject.
