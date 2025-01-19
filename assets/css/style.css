@@ -199,9 +199,7 @@ p {
         height: 400px;
     }
 
-    #hero h1 {background-color: rgba(0, 0, 0, 0.5);
-              margin-top: 1rem;      
-    }
+   
 }
 
 @media screen and (min-width:395px) {
@@ -211,9 +209,7 @@ p {
         height: 400px;
     }
 
-    #hero h1 {background-color: rgba(0, 0, 0, 0.5);
-              margin-top: 1rem;      
-    }
+ 
 }
 
 @media screen and (min-width:768px) {
