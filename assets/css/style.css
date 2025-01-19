@@ -192,6 +192,30 @@ p {
     }
 }
 
+@media screen and (min-width:370px) {
+    #conditions .card {
+        margin-bottom: 1rem;
+        margin-left: 1.5rem;
+        height: 400px;
+    }
+
+    #hero h1 {background-color: rgba(0, 0, 0, 0.5);
+              margin-top: 1rem;      
+    }
+}
+
+@media screen and (min-width:395px) {
+    #conditions .card {
+        margin-bottom: 1rem;
+        margin-left: 2.5rem;
+        height: 400px;
+    }
+
+    #hero h1 {background-color: rgba(0, 0, 0, 0.5);
+              margin-top: 1rem;      
+    }
+}
+
 @media screen and (min-width:768px) {
     #conditions .card {
         margin-bottom: 1rem;
